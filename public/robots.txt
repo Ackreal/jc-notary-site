@@ -1,0 +1,13 @@
+# robots.txt for JC Notary & Signing
+# https://jcnotaryandsigning.com
+
+User-agent: *
+Allow: /
+
+# Be polite to small crawlers
+Crawl-delay: 1
+
+# Block static asset internals that aren't useful to index
+Disallow: /static/
+
+Sitemap: https://jcnotaryandsigning.com/sitemap.xml
