@@ -183,6 +183,110 @@ export const blogPosts = [
       { type: "p", text: "If you'd like to be notified the moment we go live, send us a note through the contact page and we'll add you to the list." },
     ],
   },
+  {
+    slug: "acceptable-id-california-complete-guide",
+    tag: "General Notary",
+    title: "Acceptable Forms of ID for Notarization in California: The Complete Guide",
+    dek: "A California-focused reference guide to the IDs accepted under state law, the five-year rule that trips people up, common gotchas, and what to do if your ID won't work.",
+    readTime: "6 min read",
+    date: "Jun 2026",
+    body: [
+      { type: "callout", text: "A California-focused guide. Notarization ID rules vary by state — if you're outside California, check your home state's Secretary of State website for your local rules." },
+      { type: "p", text: "/* PHOTO PLACEHOLDER 1: Hands holding a wallet open with cards visible, or briefcase with documents on a desk. Stock photo, neutral, professional. */" },
+      { type: "p", text: "When a California notary public asks for your ID, they're not being cautious for its own sake. They're following a specific section of California law — and getting it wrong means the document you're signing may not hold up in court, in escrow, or at the county recorder's office." },
+      { type: "p", parts: ["This guide walks through exactly what California considers a valid form of identification for notarization, the legal standard behind those rules, the most common reasons IDs get rejected at appointments, and what your options are if your ID won't work. For a quick-reference list, see our ", { link: "/acceptable-id", text: "Acceptable ID page" }, "."] },
+
+      { type: "h", text: "The Legal Standard: What California Actually Requires" },
+      { type: "p", text: "California Civil Code §1185 sets the rules. A notary must have \"satisfactory evidence\" that you are who you say you are. The law defines \"satisfactory evidence\" as either:" },
+      { type: "ul", items: [
+        "An approved identification document that meets specific criteria",
+        "Sworn testimony from credible witnesses (more on this option below)",
+      ]},
+      { type: "p", text: "The ID itself must meet four requirements:" },
+      { type: "ul", items: [
+        "Photo of the bearer",
+        "Physical description (height, weight, eye color, etc.)",
+        "Signature of the bearer",
+        "Identifying number (license number, passport number, etc.)",
+      ]},
+      { type: "p", text: "And critically — it must be current OR issued within the last five years." },
+      { type: "p", text: "If your ID is missing any of those four elements, or it's been more than five years since the issue date stamped on the document, it doesn't qualify. No exceptions, no notary discretion." },
+
+      { type: "h", text: "The Approved List of California-Accepted IDs" },
+      { type: "p", text: "These are the documents California specifically recognizes for notarization." },
+
+      { type: "h", text: "Issued by the U.S. Government" },
+      { type: "p", text: "/* PHOTO PLACEHOLDER 2: A generic icon-style graphic showing a passport silhouette, or a stock photo of a passport on a wooden desk. */" },
+      { type: "ul", items: [
+        "U.S. Passport (book or card)",
+        "U.S. Passport Card",
+        "U.S. Military ID — active duty, retired, dependent, or Veterans Health ID",
+        "Inmate identification card issued by the California Department of Corrections",
+      ]},
+
+      { type: "h", text: "Issued by the State of California (or any U.S. state)" },
+      { type: "ul", items: [
+        "California Driver's License",
+        "California Identification Card (state-issued non-driver ID)",
+        "Driver's license or ID card from any other U.S. state — same five-year currency rule applies",
+        "REAL ID-compliant cards (the ones with the star in the corner) — fully valid, no special treatment",
+      ]},
+
+      { type: "h", text: "Issued by Foreign Governments" },
+      { type: "ul", items: [
+        "Foreign passport that has been stamped by U.S. Citizenship and Immigration Services (USCIS). The stamp is what makes it acceptable — an unstamped foreign passport, on its own, does not qualify under California law.",
+        "Mexican Consular ID (Matrícula Consular)",
+        "Canadian or Mexican driver's license",
+      ]},
+
+      { type: "h", text: "Other Specifically Permitted IDs" },
+      { type: "ul", items: [
+        "Tribal identification card issued by a federally recognized Indian tribe — must include the four required elements (photo, description, signature, ID number)",
+      ]},
+
+      { type: "h", text: "The Five-Year Rule — The Most Common Reason IDs Get Rejected" },
+      { type: "p", text: "This catches people off guard more than any other rule. California notaries can accept an ID that's expired, but only if it was issued within the last five years." },
+      { type: "p", text: "Look at the \"Issue Date\" on your card — not the expiration date. If that issue date is more than five years ago, the ID is not usable for a notarization in California, even if it's still technically valid for driving or air travel." },
+      { type: "callout", text: "Example — A California driver's license issued in March 2020 with a 2026 expiration would no longer qualify after March 2025 — even though the card is still valid for driving until 2026." },
+      { type: "p", text: "If you're scheduling a notarization and your license is approaching that five-year window, request a duplicate from the DMV (they re-issue with a fresh date) before your appointment." },
+
+      { type: "h", text: "Common Gotchas to Watch For" },
+      { type: "p", text: "/* PHOTO PLACEHOLDER 3: Stock photo of a magnifying glass over documents, or a person looking carefully at an ID card. */" },
+      { type: "p", text: "Even with an approved ID, a few details routinely trip people up:" },
+      { type: "ul", items: [
+        "Name discrepancies. The name on your ID must match the name on the document being notarized — or at minimum, the name your ID shows must reasonably encompass it. \"Robert J. Smith\" on your driver's license signing as \"Robert James Smith\" on a deed is usually fine. \"Bob Smith\" on your license signing as \"Robert J. Smith\" creates a problem.",
+        "Damaged cards. If the photo is obscured, the signature is worn off, or critical information is unreadable, the ID may be rejected.",
+        "Temporary paper IDs. A paper temporary license from the DMV (issued while you wait for your real card) generally does not qualify — it lacks the photo requirement.",
+        "Out-of-state IDs near the five-year mark. Same rule applies regardless of which state issued the ID.",
+        "Expired passports. Same five-year rule from issue date.",
+      ]},
+
+      { type: "h", text: "What If Your ID Won't Work? The Credible Witness Option" },
+      { type: "p", text: "California law gives you a backup path: credible witnesses." },
+      { type: "p", text: "You can be identified by witnesses who personally know you in one of two ways:" },
+      { type: "p", text: "One credible witness — must personally know both you and the notary, and must produce their own approved ID." },
+      { type: "p", text: "Two credible witnesses — must personally know you (but don't need to know the notary), and both must produce their own approved IDs." },
+      { type: "p", text: "In either case, each witness signs a statement under oath confirming your identity. This is a fully legal route to notarization when you genuinely don't have qualifying ID — but the witnesses themselves must meet the same ID standards described above." },
+      { type: "p", text: "This option is most often used for elderly clients whose IDs have lapsed, hospitalized signers who don't have their documents with them, or recent arrivals who don't yet have U.S. identification." },
+
+      { type: "h", text: "Pre-Appointment Checklist" },
+      { type: "p", text: "Before any notary appointment in California, confirm:" },
+      { type: "ul", items: [
+        "You have a government-issued ID from the approved list",
+        "The ID is current, OR issued within the last five years",
+        "The photo, signature, physical description, and ID number are all readable",
+        "The name on the ID matches the name as it appears on the document",
+        "Foreign passports have the USCIS stamp",
+      ]},
+      { type: "p", parts: ["If anything on that list gives you pause, mention it when scheduling. A quick conversation before your appointment can save a wasted trip — and as a mobile notary serving Alameda and the East Bay, the last thing I want is to drive to your home or office only to discover we can't proceed. For the full list of accepted IDs at a glance, visit our ", { link: "/acceptable-id", text: "Acceptable ID page" }, "."] },
+
+      { type: "h", text: "Need to Schedule a Notarization?" },
+      { type: "p", parts: ["If you've worked through this guide and want to book an appointment, you can schedule online via the ", { link: "/contact", text: "Contact page" }, " or call (510) 545-2304. For the full list of services and fees, see the ", { link: "/services", text: "Services page" }, " and ", { link: "/fees", text: "Fee Schedule" }, "."] },
+      { type: "p", parts: ["For a quick-reference summary of accepted IDs, the ", { link: "/acceptable-id", text: "Acceptable ID page" }, " breaks it down at a glance."] },
+
+      { type: "callout", text: "JC Sullivan is a California Notary Public and NNA Certified Loan Signing Agent serving Alameda, Oakland, Berkeley, and the East Bay seven days a week. This article is general guidance, not legal advice. For questions about a specific document or transaction, consult an attorney." },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find(p => p.slug === slug);

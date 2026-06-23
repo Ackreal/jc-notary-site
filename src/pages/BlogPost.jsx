@@ -2,12 +2,20 @@ import { Link, useParams, Navigate } from "react-router-dom";
 import { ArrowLeft, Clock, Calendar, ArrowUpRight, ArrowRight } from "lucide-react";
 import { getPostBySlug, getRelatedPosts } from "@/data/blogPosts";
 
+function renderParts(parts) {
+  return parts.map((part, i) => {
+    if (typeof part === "string") return <span key={i}>{part}</span>;
+    if (part.link) return <Link key={i} to={part.link} className="text-[var(--gold-deep)] underline underline-offset-2 hover:text-[var(--navy)] transition-colors">{part.text}</Link>;
+    return null;
+  });
+}
+
 function renderBlock(block, i) {
   switch (block.type) {
     case "h":
       return <h2 key={i} className="h-display text-3xl md:text-[34px] text-[var(--navy-deep)] mt-12 mb-4 leading-tight">{block.text}</h2>;
     case "p":
-      return <p key={i} className="text-[var(--ink)] text-[17px] leading-[1.75] mt-5">{block.text}</p>;
+      return <p key={i} className="text-[var(--ink)] text-[17px] leading-[1.75] mt-5">{block.parts ? renderParts(block.parts) : block.text}</p>;
     case "ul":
       return (
         <ul key={i} className="mt-5 space-y-2.5 pl-0">

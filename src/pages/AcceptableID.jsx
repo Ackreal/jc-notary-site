@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import PageHero from "@/components/PageHero";
-import { CheckCircle2, Users, AlertTriangle } from "lucide-react";
+import { CheckCircle2, Users, AlertTriangle, ArrowRight } from "lucide-react";
 
 const acceptedIds = [
   "California Driver's License or State ID (DMV issued)",
@@ -61,6 +62,18 @@ export default function AcceptableID() {
                   I am not an attorney. I cannot explain or interpret the contents of any document. If you have questions about your documents, please contact the attorney or institution that prepared them.
                 </p>
               </div>
+
+              <Link
+                to="/blog/acceptable-id-california-complete-guide"
+                className="card-surface card-surface-hover p-7 flex flex-col group"
+              >
+                <div className="font-mono-ui text-[11px] tracking-[0.2em] uppercase text-[var(--gold-deep)] mb-3">From the Blog</div>
+                <div className="font-display text-lg text-[var(--navy-deep)] leading-snug">The Complete Guide to Acceptable IDs for Notarization in California</div>
+                <p className="text-sm text-[var(--ink-soft)] leading-relaxed mt-2">The five-year rule, common gotchas, the credible witness option, and more.</p>
+                <span className="mt-4 font-mono-ui text-[11px] tracking-[0.18em] uppercase text-[var(--gold-deep)] inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                  Read the guide <ArrowRight size={12} />
+                </span>
+              </Link>
             </aside>
           </div>
         </div>
