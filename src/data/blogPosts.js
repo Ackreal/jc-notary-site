@@ -192,7 +192,6 @@ export const blogPosts = [
     date: "Jun 2026",
     body: [
       { type: "callout", text: "A California-focused guide. Notarization ID rules vary by state — if you're outside California, check your home state's Secretary of State website for your local rules." },
-      { type: "p", text: "/* PHOTO PLACEHOLDER 1: Hands holding a wallet open with cards visible, or briefcase with documents on a desk. Stock photo, neutral, professional. */" },
       { type: "p", text: "When a California notary public asks for your ID, they're not being cautious for its own sake. They're following a specific section of California law — and getting it wrong means the document you're signing may not hold up in court, in escrow, or at the county recorder's office." },
       { type: "p", parts: ["This guide walks through exactly what California considers a valid form of identification for notarization, the legal standard behind those rules, the most common reasons IDs get rejected at appointments, and what your options are if your ID won't work. For a quick-reference list, see our ", { link: "/acceptable-id", text: "Acceptable ID page" }, "."] },
 
@@ -216,7 +215,6 @@ export const blogPosts = [
       { type: "p", text: "These are the documents California specifically recognizes for notarization." },
 
       { type: "h", text: "Issued by the U.S. Government" },
-      { type: "p", text: "/* PHOTO PLACEHOLDER 2: A generic icon-style graphic showing a passport silhouette, or a stock photo of a passport on a wooden desk. */" },
       { type: "ul", items: [
         "U.S. Passport (book or card)",
         "U.S. Passport Card",
@@ -251,7 +249,6 @@ export const blogPosts = [
       { type: "p", text: "If you're scheduling a notarization and your license is approaching that five-year window, request a duplicate from the DMV (they re-issue with a fresh date) before your appointment." },
 
       { type: "h", text: "Common Gotchas to Watch For" },
-      { type: "p", text: "/* PHOTO PLACEHOLDER 3: Stock photo of a magnifying glass over documents, or a person looking carefully at an ID card. */" },
       { type: "p", text: "Even with an approved ID, a few details routinely trip people up:" },
       { type: "ul", items: [
         "Name discrepancies. The name on your ID must match the name on the document being notarized — or at minimum, the name your ID shows must reasonably encompass it. \"Robert J. Smith\" on your driver's license signing as \"Robert James Smith\" on a deed is usually fine. \"Bob Smith\" on your license signing as \"Robert J. Smith\" creates a problem.",
